@@ -1,0 +1,4 @@
+- name: -----------printmyvar--------------
+  debug:
+    msg: "{{myvar}}"
+  tags: var
